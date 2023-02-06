@@ -32,7 +32,7 @@ class TestDto extends AbstractDto
 class Operation
 {
 
-    public function test(estDto $testDto): void
+    public function test(TestDto $testDto): void
     {
         echo $testDto->email;
     }
