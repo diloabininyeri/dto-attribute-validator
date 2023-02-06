@@ -1,0 +1,22 @@
+{
+    "name": "zeus/dto-attribute-validator",
+    "autoload": {
+        "psr-4": {
+            "Zeus\\DtoAttributeValidator\\": "src/",
+            "Zeus\\DtoAttributeValidator\\Example\\": "example/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dılo sürücü",
+            "email": "berxudar@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^10.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}
